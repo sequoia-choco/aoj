@@ -24,6 +24,7 @@ while True:
         b = tmp
 
         cnt += 1
+
     if cnt <= MAX_CNT:
         print(cnt)
     else:

@@ -20,5 +20,5 @@ for i in range(1, T + 1):
     if i > 1:
         for j in range(N):
             filled[(p[j] * i) % R] += 1
-    print(filled)
+    # print(filled)
 print(res)

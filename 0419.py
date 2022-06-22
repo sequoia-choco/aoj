@@ -4,7 +4,7 @@ oocnt = 0
 for i in range(len(snake) - 1):
     if snake[i:i + 2] == "oo":
         oocnt += 1
-total = 0
+# total = 0
 
 # for i in range(N):
 #     total = total + oocnt
