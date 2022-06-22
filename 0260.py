@@ -40,7 +40,7 @@ while True:
     J = list(map(int, input().split()))
 
     maxv = 0
-    mergeSort(J, 0, n - 1)
+    mergeSort(J, 0, n - 1)  # J.sort()
     J.append(0)
     totalj = 0
     for k in range(0, n):
